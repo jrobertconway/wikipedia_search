@@ -1,0 +1,40 @@
+!, <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Search</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+  	  <div class="jumbotron text-center">
+    	<h1>Wikipedia Search</h1>
+  	  </div>
+
+  	 <form class="form-inline">
+      <input class="form-control" id="searchBar" placeholder="Search">
+      <button type="button" class="btn" id="search"><i class="fa fa-search"></i></button>
+     </form>
+	<div class="row">
+  	  <div class="col-xs-6 col-xs-offset-3">
+  	    <button class="btn btn-default text-center"><a href="https://en.wikipedia.org/wiki/Special:Random" target="blank">Random Article</a></button>
+   	  </div> 
+	</div>
+  	<div class="row">
+      <div class="col-md-12">
+  		<ul id="results">
+  		</ul>
+      </div>
+	</div>
+
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,25 @@
+form{
+  margin: auto;
+  width: 300px;
+  
+}
+
+.btn-default{
+ width: 100%;
+ margin-top: 50px;
+  
+  
+  
+  
+}
+
+.jumbotron{
+  background-color: green;
+}
+
+body{
+  font-family: 'Russo One', sans-serif;
+  
+  background-color: grey;
+}
+
